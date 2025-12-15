@@ -7,7 +7,7 @@ Permite “gritar” con el sensor y medir la distancia en centímetros de maner
 ## Instalación
 
 ### Manual
-1. Descarga el repositorio como ZIP o clona `https://github.com/Axxel-otl/Sonic`.
+1. Descarga el repositorio como ZIP o clona `https://github.com/Axxel-otl/Sonic/releases/tag/v1.0.0`.
 2. Copia la carpeta `Sonic/` en tu carpeta `libraries/` del Arduino IDE.
 3. Reinicia el IDE.
 
