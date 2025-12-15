@@ -2,7 +2,7 @@
 
 Librería simple para controlar sensores ultrasónicos con Arduino.  
 
-Permite “gritar” con el sensor y medir la distancia en centímetros de manera clara, con timeout configurable. Devuelve `-1` si no se obtiene medición válida.
+Permite “gritar” con el sensor y medir la distancia en centímetros de manera clara. Devuelve `-1` si no se obtiene medición válida.
 
 ## Instalación
 
