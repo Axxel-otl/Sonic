@@ -11,3 +11,5 @@ With this you can read the sensor's value
 With this you can scream the times you want and then average them
 ## Notes
 If a value exceeds the limits or the value isn't valid it returns -1
+
+If you're seeing this thank you for taking the time to see my library
