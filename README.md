@@ -1,4 +1,4 @@
-### Initial version
+### Sonic.h library
 ## `Sonic`
 Class. You can create multiple objects to read multiple sensors at the same time
 ## `attach(TRIG, ECHO)`
