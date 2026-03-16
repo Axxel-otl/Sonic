@@ -1,0 +1,5 @@
+Sonic      KEYWORD1
+
+attach     KEYWORD2
+scream     KEYWORD2
+average    KEYWORD2
