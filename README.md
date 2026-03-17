@@ -16,7 +16,7 @@ With this you can scream the times you want and then average them
 If a value exceeds the limits or the value isn't valid it returns -1
 The library turns the cm into us and the other way around too
 ## Example
-```cpp
+```ino
 #include <Sonic.h>
 
 Sonic sonar;
