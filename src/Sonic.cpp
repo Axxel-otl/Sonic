@@ -20,36 +20,36 @@ void Sonic::attach(uint8_t trig, uint8_t echo){
     pinMode(this->echo, INPUT);
 }
 
-long Sonic::scream(int limMin = 3, int limMax = 800){
+long Sonic::scream(int limMin, int limMax){
     long dist = this->dist;
-    if(listo){
-        listo = false;
+    if(ready){
+        ready = false;
         if(dist >= limMin && dist <= limMax){
             return(dist);
         } else{
             return(-1);
         }
     }
-    if(!midiendo){
+    if(!measuring){
         digitalWrite(this->trig, LOW);
         delayMicroseconds(2);
         digitalWrite(this->trig, HIGH);
         delayMicroseconds(10);
         digitalWrite(this->trig, LOW);
-        midiendo = true;
-        attachInterrupt(digitalPinToInterrupt(this->echo), convertir, CHANGE);
+        measuring = true;
+        attachInterrupt(digitalPinToInterrupt(this->echo), isr, CHANGE);
     }
     return(-2);
 }
 
-void convertir(){
+void isr(){
     if(digitalRead(instance->echo) == HIGH){
-        instance->inicio = micros();
+        instance->start = micros();
     } else{
-        instance->dist = (micros()-instance->inicio)/58;
+        instance->dist = (micros()-instance->start)/58;
         detachInterrupt(digitalPinToInterrupt(instance->echo));
-        instance->listo = true;
-        instance->midiendo = false;
+        instance->ready = true;
+        instance->measuring = false;
     }
 }
 
