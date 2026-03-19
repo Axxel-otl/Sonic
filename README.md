@@ -10,8 +10,9 @@ With this you can read the sensor's value
 *default Times = 2, the other's default is the same as in scream*
 With this you can scream the times you want and then average them
 ## Ideas
-- [ ] Modify the `scream` to turn it into a non-blocking thing
+- [x] Modify the `scream` to turn it into a non-blocking thing
 - [ ] Create more filters for the lectures (Like the `average` I have)
+- [ ] Add more units like inches
 ## Notes
 If a value exceeds the limits or the value isn't valid it returns -1
 The library turns the cm into us and the other way around too

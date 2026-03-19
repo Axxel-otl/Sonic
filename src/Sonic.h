@@ -17,6 +17,10 @@ class Sonic {
     private:
         uint8_t trig;
         uint8_t echo;
+        volatile long inicio;
+        volatile long dist;
+        volatile bool listo;
+        volatile bool midiendo;
 };
 
 #endif

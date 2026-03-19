@@ -8,6 +8,11 @@ void setup(){
 }
 
 void loop(){
-  long d = sonar.average(5, 3, 200);
+  long d = sonar.scream(3, 200);
+  if(d == -2) return;
+  if(d == -1){
+    Serial.println("Invalid reading");
+    return;
+  }
   Serial.println(d);
 }
