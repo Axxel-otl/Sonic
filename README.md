@@ -15,6 +15,7 @@ With this you can scream the times you want and then average them
 - [ ] Add more units like inches
 ## Notes
 If a value exceeds the limits or the value isn't valid it returns -1
+If the reading isn't complete yet it returns -2
 The library turns the cm into us and the other way around too
 ## Example
 ```ino
