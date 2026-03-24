@@ -34,5 +34,7 @@ void loop(){
 }
 ```
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Axxel-otl/Sonic)
+
 Sorry for my possibly bad english, i'm learning
 If you're seeing this thank you for taking the time to see my library
