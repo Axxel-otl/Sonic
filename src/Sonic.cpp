@@ -31,6 +31,7 @@ long Sonic::scream(int limMin, int limMax) {
         digitalWrite(trig, LOW);
         delayMicroseconds(2);
         digitalWrite(trig, HIGH);
+        digitalWrite(trig, HIGH);
         delayMicroseconds(10);
         digitalWrite(trig, LOW);
         start = micros();
