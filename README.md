@@ -1,5 +1,4 @@
 ### Sonic.h library
-# Temporarily unstable
 ## `Sonic`
 Class. You can create multiple objects to read multiple sensors at the same time
 ## `attach(TRIG, ECHO)`
@@ -37,5 +36,5 @@ void loop(){
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Axxel-otl/Sonic)
 
-Sorry for my possibly bad English, I'm still learning.  
-If you're seeing this, thanks for taking the time to check my library.
+Sorry for my possibly bad english, i'm learning
+If you're seeing this thank you for taking the time to see my library
